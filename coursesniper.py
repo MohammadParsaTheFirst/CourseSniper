@@ -1,6 +1,15 @@
 import requests, time, random
 from termcolor import colored, cprint
 
+"""
+In this script unllike the other one, we sent requests to the Website
+and the user must login into his/her account and then head into insoect and in the Network section
+get the token and then feed it to the script as the Authorization key.
+At last the user must insert the data for courses such is uts code, its credits, the no. of the group and the 
+action that must be applied(taking, regrouping, removing the course) 
+"""
+
+
 cprint("Hello!", "green")
 
 auth = input(colored("Authorization Key: ", "yellow"))
