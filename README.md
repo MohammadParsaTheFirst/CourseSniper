@@ -11,11 +11,12 @@ CourseSniper is a script/tool designed to help students at our university quickl
 
 
 ## Usage
-1. Configure your course preferences in the `config.json` file.
-2. Run the script:
+1. Run the script:
     ```bash
     python coursesniper.py
     ```
+2. If you are running `coursesniper.py`, you must get an authentication key before logging into the website.
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
